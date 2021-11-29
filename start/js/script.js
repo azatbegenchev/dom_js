@@ -9,7 +9,13 @@ document.getElementById('out').innerHTML = 'Good!';
 document.getElementById('out').innerHTML = 2021;
 document.getElementById('out').innerHTML = '<b>2021</b>';
 
-// ocument.querySelector('.header').innerHTML = 500;
-// document.querySelector('#one').innerHTML = 2021;
+document.querySelector('.header').innerHTML = 15;
+document.querySelector('#one').innerHTML = 2022; //есть #
+document.getElementById('one').innerHTML = "fuck of";// нет #
+let b;
+let a = document.querySelector('#one');
+let c;
+c = document.querySelector('.header');
 
-let a = document.querySelector('#one').innerHTML = 500;
+a.innerHTML = 2022;
+c.innerHTML = 6666;
