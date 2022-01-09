@@ -1,7 +1,7 @@
-let a = 6;
-let b = 'Hello';
+// let a = 6;
+// let b = 'Hello';
 
-console.log(a);
+// console.log(a);
 
 let inputIn = document.querySelector('.input-in');//input
 let button = document.querySelector('button');//button
