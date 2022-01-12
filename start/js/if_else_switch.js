@@ -39,6 +39,6 @@ button.onclick = ()=> {
 
 }
 
-let b = 5;
+let b = 4;
+console.log(b == 4);
 
-console.log(b == 7);
