@@ -1,9 +1,9 @@
-let c = '((()))()(';
+let c = '((()))()';
 console.log(c.length);
 let count = 0;
 
 for (let i = 0; i < c.length; i++) {
-    // console.log(c[i]);
+    console.log(c[i]);
     if (c[i] == '(') {
         count++;
     }
