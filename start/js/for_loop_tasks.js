@@ -22,3 +22,11 @@ for (let i = 1; i <= 4; i++) {
     }
     outThree.innerHTML += '<br>';
 }
+
+
+
+for (let i = 1; i <= 10; i++) {
+    let str = i;
+    console.log(str + ' ');
+}
+
