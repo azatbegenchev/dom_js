@@ -39,6 +39,14 @@ function multi3(x = 10, y = 5) {
 }
 console.log(multi2(4, 5));
 console.log(multi2(20, 5));
-console.log(multi2(20, a));
+console.log(multi2(20, b));
 
 console.log(multi3(30));
+
+document.querySelector('.f-2').onclick = function () {
+    console.log('function f-2 worked');
+}
+
+document.querySelector('.f-2').onclick = () => {
+    console.log('function f-2 with array')
+}

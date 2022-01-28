@@ -1,0 +1,23 @@
+.text-centre{
+    text-align: center;
+}
+
+.tasks-descr{
+    
+    font-size: x-large;
+}
+
+.out{
+    font-size: x-large;
+    color: rgb(23, 228, 33);
+}
+
+.out-1{
+    font-size: x-large;
+    color: blue;
+}
+
+.out-3{
+    font-size: x-large;
+    color: #ff0015;
+}
