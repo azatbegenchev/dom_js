@@ -17,7 +17,7 @@ document.querySelector('.b-2').onclick = function t2() {
     }
 }
 
-document.querySelector('.b-3').onclick = function t2() {
+document.querySelector('.b-3').onclick = function t3() {
     let i = 25;
     out3 = document.querySelector('.out-3');
     while (i >= 7) {
