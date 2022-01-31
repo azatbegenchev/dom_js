@@ -15,3 +15,26 @@ toggle.onclick = function () {
 
 console.log(one.getAttribute('data'));
 console.log(document.querySelector('link').getAttribute('href'));
+
+
+one.setAttribute('data-num', 6);
+
+let gas = document.querySelectorAll('.gas');
+for (let i = 0; i < gas.length; i++) {
+    gas[i].onclick = function () {
+        let gallons = document.querySelector('.gallons').value;
+        let amount = this.getAttribute('data');
+        console.log(gallons * amount);
+    }
+}
+
+let a = document.createElement('div');
+a.innerHTML = 'Hello!';
+a.classList.add('two');
+a.onclick = function () {
+    alert('Hello!!!');
+}
+
+document.querySelector('.test').appendChild(a);
+
+console.log(a);
