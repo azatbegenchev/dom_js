@@ -1,0 +1,15 @@
+.text-center{
+    text-align: center;
+}
+
+.one{
+    background-color: bisque;
+}
+
+.two {
+    background-color: orange;
+}
+
+.three{
+    border: 2px solid red;
+}
