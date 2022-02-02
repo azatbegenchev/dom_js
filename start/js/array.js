@@ -7,5 +7,6 @@ let d = [];
 console.log(c.length);
 
 for (let i = 0; i < c.length; i++) {
-    document.querySelector('.out').innerHTML += c[i] + '<br>';
+    document.querySelector('.out').innerHTML += c[i] + ',' + ' ';
+
 }
