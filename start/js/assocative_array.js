@@ -25,3 +25,5 @@ for (let key in a) {
 }
 
 document.querySelector('.out').innerHTML = out;
+
+console.log(a);
