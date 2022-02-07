@@ -13,7 +13,7 @@ document.querySelector('.b-2').onclick = function t2() {
     out2 = document.querySelector('.out-2');
     while (i <= 50) {
         out2.innerHTML += i + '_';
-        i = i + 2
+        i = i + 2;
     }
 }
 
